@@ -1,0 +1,11 @@
+# Python 3.13 (3.11+ should work). All libraries are open source; no pretrained / external models are used.
+pandas==2.3.1
+pyarrow==21.0.0
+numpy==2.4.4
+rapidfuzz==3.14.6      # MIT - string similarities
+anyascii==0.3.3        # ISC - offline transliteration fallback
+numba==0.67.0          # BSD - blocking kernels
+llvmlite==0.49.0       # BSD - numba backend
+lightgbm==4.7.0        # MIT - matcher model
+psutil==7.2.2          # BSD - memory logging
+matplotlib==3.10.8     # notebooks only
