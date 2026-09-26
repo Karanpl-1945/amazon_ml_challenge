@@ -14,3 +14,7 @@ The code lives in `6a7c763e089e4_aic_2026/student_resource/`. The data is **not*
    ```
 4. Results: `student_resource/output/matching_results.tsv` (+ `candidate_pairs.tsv`);
    full log with validation scores: `student_resource/work/pipeline_log.txt`.
+
+## Run on Kaggle
+Import `kaggle_run.ipynb` into Kaggle (File → Import Notebook → GitHub or upload), add the challenge data as input,
+set Accelerator = None and Internet = On, then **Save Version → Save & Run All**.
